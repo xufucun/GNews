@@ -84,7 +84,7 @@ public class LocationFragment  extends Fragment implements LoaderManager.LoaderC
         Uri.Builder uriBuilder = baseUri.buildUpon();
         uriBuilder.appendQueryParameter("api-key", "c4c4969c-cdf9-49f0-8da0-613a72b77002");
         uriBuilder.appendQueryParameter("format", "json");
-        uriBuilder.appendQueryParameter("q", "android");
+        uriBuilder.appendQueryParameter("q", "China");
 
         Log.d(TAG, "onCreateLoader: "+uriBuilder.toString());
 
