@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GNews</string>
+
+    <string name="category_theme">主题</string>
+    <string name="category_personage">人物</string>
+    <string name="category_location">地点</string>
+    
+    <!--<string name="api_key">c4c4969c-cdf9-49f0-8da0-613a72b 77002</string>-->
+
 </resources>

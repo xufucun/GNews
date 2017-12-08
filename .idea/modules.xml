@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GNews.iml" filepath="$PROJECT_DIR$/GNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GNews.iml" filepath="$PROJECT_DIR$/.idea/GNews.iml" />
+      <module fileurl="file://F:\AndroidStudioProjects\GNews\GNews.iml" filepath="F:\AndroidStudioProjects\GNews\GNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
