@@ -113,10 +113,7 @@ public class QueryUtils {
 
             JSONObject baseJsonResponse = new JSONObject(newsListJSON);
             String response = baseJsonResponse.getString("response");
-//            JSONObject responseData = response.getJSONObject(0);
-//            String status = responseData.getString("status");
             JSONObject jsonObject = new JSONObject(response);
-            String status = jsonObject.getString("status");
             JSONArray results = jsonObject.getJSONArray("results");
 
             for (int i = 0; i < results.length(); i++) {

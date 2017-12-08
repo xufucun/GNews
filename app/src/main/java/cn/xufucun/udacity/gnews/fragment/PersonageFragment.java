@@ -72,7 +72,7 @@ public class PersonageFragment  extends Fragment implements LoaderManager.Loader
         } else {
             View loadingIndicator = view.findViewById(R.id.loading_indicator);
             loadingIndicator.setVisibility(View.GONE);
-            emptyTextView.setText("无网络链接");
+            emptyTextView.setText(R.string.no_network);
         }
 
 
@@ -97,7 +97,7 @@ public class PersonageFragment  extends Fragment implements LoaderManager.Loader
     public void onLoadFinished(Loader<List<News>> loader, List<News> data) {
         View loadingIndicator = view.findViewById(R.id.loading_indicator);
         loadingIndicator.setVisibility(View.GONE);
-        emptyTextView.setText("无数据");
+        emptyTextView.setText(R.string.no_data);
         newsAdapter.clear();
         if (data != null && !data.isEmpty()) {
             newsAdapter.addAll(data);
